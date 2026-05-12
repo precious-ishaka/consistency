@@ -1,37 +1,37 @@
 
-# def binarySearch(arr, tar):
-#     left = 0
-#     right = len(arr) -1
-#     while(left <= right):
+def binarySearch(arr, tar):
+    left = 0
+    right = len(arr) -1
+    while(left <= right):
         
-#         mid = int( left + (right - left)/2)
-#         if(arr[mid]== tar):
-#             return mid
-#         elif arr[mid] < tar:
-#             left = mid + 1
-#         else:
-#             right = mid - 1
+        mid = int( left + (right - left)/2)
+        if(arr[mid]== tar):
+            return mid
+        elif arr[mid] < tar:
+            left = mid + 1
+        else:
+            right = mid - 1
 
-#     return -1
-
-
-
-# list = [-7, 3, 5, 9, 14, 16]
-# target = 3
-# result = binarySearch(list , target)
-
-# print(result)
+    return -1
 
 
-# s = "racecear"
-# is_pal = True
 
-# for i in range(len(s)//2):
-#     if s[i] != s[-i-1]:
-#         is_pal = False
-#         break
+list = [-7, 3, 5, 9, 14, 16]
+target = 3
+result = binarySearch(list , target)
 
-# print(is_pal)
+print(result)
+
+
+s = "racecear"
+is_pal = True
+
+for i in range(len(s)//2):
+    if s[i] != s[-i-1]:
+        is_pal = False
+        break
+
+print(is_pal)
 
 
 def merge(a, b):
@@ -52,6 +52,19 @@ def merge(a, b):
 
    
 print(merge([2, 8, 5], [3, 7, 11]))
+
+
+
+
+name="whitney" 
+age=23
+country="ghana" 
+email="whitney330@hmail.com"
+
+print (name)
+print(age)
+print(country)
+print(email)
 
 
 
