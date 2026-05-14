@@ -15,7 +15,7 @@ function binarySearch(arr, tar){
     }else{
         right = mid - 1
     }
-
+// whyyyyb xhxjxjxkxklx
     
    }
 
