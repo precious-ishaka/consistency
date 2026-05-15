@@ -1,2 +1,6 @@
 .vscode
 Dsa.class
+output
+main.exe
+node_modules
+package.json

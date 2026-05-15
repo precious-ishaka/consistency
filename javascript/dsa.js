@@ -15,7 +15,7 @@ function binarySearch(arr, tar){
     }else{
         right = mid - 1
     }
-// whyyyyb xhxjxjxkxklx
+
     
    }
 
@@ -46,7 +46,24 @@ for(let i = 0; i < size - 1; i++){
 }
 
 
-for(let i =0; i < size; i++){
-    console.log(list[i]);
+// for(let i =0; i < size; i++){
+//     console.log(list[i]);
     
+// }
+
+class MyArray{
+    constructor(){
+        this.length = 0;
+        this.data = {};
+    }
+
+    push(x){
+        this.data[this.length] = x
+        console.log(this.data[this.length]);
+        
+    }
 }
+
+const listt = new MyArray()
+console.log(listt.push(7));
+
